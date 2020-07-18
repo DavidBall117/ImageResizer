@@ -4,10 +4,8 @@
   "description": "Resize images from a folder on your local hard drive.",
   "main": "index.js",
   "scripts": {
-    "pokedex": "node index.js -i C:/Users/David/Pictures/MyPictures/pokedex -w 200 -o C:/Users/David/Pictures/MyPictures/pokedex200",
-    "pokedex-debug": "node --inspect-brk  index.js -i C:/Users/David/Pictures/MyPictures/pokedex -w 300 -o C:/Users/David/Pictures/MyPictures/pokedex300",
-    "single-image": "node index.js -i C:/Users/David/Pictures/MyPictures/pokedex/1.png -w 100 -o C:/Users/David/Pictures/MyPictures/bulbasaur",
-    "single-image-debug": "node --inspect-brk index.js -i C:/Users/David/Pictures/MyPictures/pokedex/1.png -w 100 -o C:/Users/David/Pictures/MyPictures/bulbasaur"
+    "pokedex": "node index.js -i C:/Users/David/Pictures/MyPictures/pokedex -w 250 -o C:/Users/David/Pictures/MyPictures/pokedex250",
+    "pokedex-debug": "node --inspect-brk  index.js -i C:/Users/David/Pictures/MyPictures/pokedex -w 250 -o C:/Users/David/Pictures/MyPictures/pokedex250"
   },
   "author": "David Robert Ball",
   "license": "MIT",
