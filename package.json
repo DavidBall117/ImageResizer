@@ -1,11 +1,22 @@
 {
   "name": "imageresizer",
   "version": "1.0.0",
-  "description": "",
+  "description": "Resize images from a folder on your local hard drive.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pokedex": "node index.js -i C:/Users/David/Pictures/MyPictures/pokedex -w 200 -o C:/Users/David/Pictures/MyPictures/pokedex200",
+    "pokedex-debug": "node --inspect-brk  index.js -i C:/Users/David/Pictures/MyPictures/pokedex -w 300 -o C:/Users/David/Pictures/MyPictures/pokedex300",
+    "single-image": "node index.js -i C:/Users/David/Pictures/MyPictures/pokedex/1.png -w 100 -o C:/Users/David/Pictures/MyPictures/bulbasaur",
+    "single-image-debug": "node --inspect-brk index.js -i C:/Users/David/Pictures/MyPictures/pokedex/1.png -w 100 -o C:/Users/David/Pictures/MyPictures/bulbasaur"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "David Robert Ball",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DavidBall117/ImageDownloader.git"
+  },
+  "dependencies": {
+    "sharp": "^0.25.4",
+    "yargs": "^15.4.1"
+  }
 }
