@@ -14,7 +14,7 @@
     "url": "https://github.com/DavidBall117/ImageDownloader.git"
   },
   "dependencies": {
-    "sharp": "^0.25.4",
+    "sharp": "^0.30.5",
     "yargs": "^15.4.1"
   }
 }
